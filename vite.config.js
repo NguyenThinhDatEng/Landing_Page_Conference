@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/Landing_Page_Conference/', // tên repo => Phục vụ deploy lên GitHub Pages
+  base: '/Landing_Page_Conference/', // tên repo => Phục vụ deploy lên GitHub Pages
   plugins: [
     vue(),
     vueDevTools(),
