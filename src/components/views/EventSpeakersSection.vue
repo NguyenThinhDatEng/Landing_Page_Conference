@@ -17,21 +17,25 @@
 </template>
 
 <script setup>
+import CoDoHue from '@/assets/imgs/intro/Co_do_Hue.webp'
+import KhachDuLich from '@/assets/imgs/intro/Khach_du_lich.webp'
+import PhongCanhThienNhien from '@/assets/imgs/intro/Phong_canh_thien_nhien.webp'
+
 const speakers = [
   {
-    avatar: '/src/assets/imgs/intro/Co_do_Hue.webp',
+    avatar: CoDoHue,
     name: 'Nguyễn Văn A',
     position: 'CEO, TechCorp',
     quote: 'Công nghệ là chìa khóa mở ra tương lai.',
   },
   {
-    avatar: '/src/assets/imgs/intro/Khach_du_lich.webp',
+    avatar: KhachDuLich,
     name: 'Trần Thị B',
     position: 'CTO, InnovateX',
     quote: 'Sáng tạo là động lực phát triển.',
   },
   {
-    avatar: '/src/assets/imgs/intro/Phong_canh_thien_nhien.webp',
+    avatar: PhongCanhThienNhien,
     name: 'Lê Văn C',
     position: 'Founder, GreenStart',
     quote: 'Khởi nghiệp xanh vì một Việt Nam bền vững.',
