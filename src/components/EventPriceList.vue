@@ -1,5 +1,9 @@
 <template>
-  <SectionTitle title="Event Price list" subtitle="perfect price for event" backgroundColor="#fff">
+  <SectionTitle
+    title="Event Price list"
+    subtitle="perfect price for event"
+    backgroundColor="#fff"
+  >
     <div class="w-full">
       <div class="flex flex-col md:flex-row gap-6 justify-center">
         <div
@@ -17,7 +21,9 @@
           <div class="price-description w-full text-center text-gray-600">
             {{ tier.description }}
           </div>
-          <TButton class="price-table-row-bottom w-full mt-auto">Đăng ký</TButton>
+          <TButton class="price-table-row-bottom w-full mt-auto"
+            >Đăng ký</TButton
+          >
         </div>
       </div>
     </div>
@@ -29,18 +35,20 @@ const tiers = [
   {
     type: "Basic",
     price: "500$",
-    description: "Tham dự cơ bản, nhận tài liệu sự kiện.",
+    description:
+      "Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.",
   },
   {
     type: "Advanced",
     price: "1000$",
-    description: "Bao gồm quyền lợi Basic + ưu tiên chỗ ngồi, quà tặng.",
+    description:
+      "Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.",
   },
   {
     type: "Ultimate",
     price: "2000$",
     description:
-      "Bao gồm tất cả quyền lợi Advanced + giao lưu diễn giả, tiệc VIP.",
+      "Fusce pellentesque velvitae tincidunt egestas. Pellentesque habitant morbi tristiquetus et senectus et netus et malesuada ac turpis.",
   },
 ];
 </script>
