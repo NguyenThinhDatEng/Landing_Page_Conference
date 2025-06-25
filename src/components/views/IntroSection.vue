@@ -13,7 +13,7 @@
         consectetur, eros augue fringilla magna, id sem magna vel diam. Nulla
         sed hendrerit nunc.
         <TButton class="mt-20" @click="scrollToRegister">
-          Đăng ký ngay
+          Register Now
           <template #icon>
             <IconSupport />
           </template>

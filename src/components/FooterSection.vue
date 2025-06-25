@@ -2,8 +2,8 @@
 <footer class="bg-gray-900 text-gray-200 py-8 mt-12 bg-[url('@/assets/imgs/bg/footer-star.png')] bg-cover bg-center">
     <div class="max-w-4xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
       <div class="text-center md:text-left">
-        <div class="font-bold text-lg mb-1">Hội nghị Công nghệ tại Huế 2025</div>
-        <div class="text-sm">Liên hệ: <a href="mailto:info@hueconf.vn" class="underline hover:text-green-400">info@hueconf.vn</a></div>
+        <div class="font-bold text-lg mb-1">Technology Conference in Hue 2025</div>
+        <div class="text-sm">Contact: <a href="mailto:info@hueconf.vn" class="underline hover:text-green-400">info@hueconf.vn</a></div>
         <div class="text-xs mt-1">© 2025 HueConf. All rights reserved.</div>
       </div>
       <div class="flex gap-4">

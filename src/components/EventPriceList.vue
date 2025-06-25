@@ -22,7 +22,7 @@
             {{ tier.description }}
           </div>
           <TButton class="price-table-row-bottom w-full mt-auto"
-            >Đăng ký</TButton
+            >Register</TButton
           >
         </div>
       </div>

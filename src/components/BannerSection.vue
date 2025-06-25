@@ -11,11 +11,11 @@
       <h1
         class="caption-title w-full justify-center align-center text-4xl md:text-6xl font-bold mt-4"
       >
-        <span class="w-full text-center">Hội nghị Công nghệ tại Huế 2025</span>
+        <span class="w-full text-center">Technology Conference in Hue 2025</span>
       </h1>
       <div class="flex justify-center mt-8">
         <TButton @click="scrollToRegister">
-          Đăng ký ngay
+          Register Now
           <template #icon>
             <IconSupport />
           </template>
