@@ -17,26 +17,26 @@
 </template>
 
 <script setup>
-import CoDoHue from '@/assets/imgs/intro/Co_do_Hue.webp'
-import KhachDuLich from '@/assets/imgs/intro/Khach_du_lich.webp'
-import PhongCanhThienNhien from '@/assets/imgs/intro/Phong_canh_thien_nhien.webp'
+import DANMY from '@/assets/imgs/speakers/DANMY.jpg'
+import HanSara from '@/assets/imgs/speakers/HanSara.jpg'
+import MAIQUINN from '@/assets/imgs/speakers/MAIQUINN.jpg'
 
 const speakers = [
   {
-    avatar: CoDoHue,
-    name: 'Nguyễn Văn A',
+    avatar: DANMY,
+    name: 'Đan My',
     position: 'CEO, TechCorp',
     quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit',
   },
   {
-    avatar: KhachDuLich,
-    name: 'Trần Thị B',
+    avatar: HanSara,
+    name: 'Han Sara',
     position: 'CTO, InnovateX',
     quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit',
   },
   {
-    avatar: PhongCanhThienNhien,
-    name: 'Lê Văn C',
+    avatar: MAIQUINN,
+    name: 'Mai Quinn',
     position: 'Founder, GreenStart',
     quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit',
   },
