@@ -1,6 +1,9 @@
 <script setup>
 import SectionTitle from "../SectionTitle.vue";
 import SpeakerCard from "../SpeakerCard.vue";
+import CoDoHue from "@/assets/imgs/intro/Co_do_Hue.webp";
+import KhachDuLich from "@/assets/imgs/intro/Khach_du_lich.webp";
+import PhongCanhThienNhien from "@/assets/imgs/intro/Phong_canh_thien_nhien.webp";
 </script>
 
 <template>
@@ -10,7 +13,7 @@ import SpeakerCard from "../SpeakerCard.vue";
   >
     <div class="flex flex-col">
       <SpeakerCard
-        avatar="src/assets/imgs/intro/Co_do_Hue.webp"
+        :avatar="CoDoHue"
         time="08:00 - 08:45"
         title="Opening Keynote"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor."
@@ -18,7 +21,7 @@ import SpeakerCard from "../SpeakerCard.vue";
         position="CEO at Crown.io"
       />
       <SpeakerCard
-        avatar="src/assets/imgs/intro/Khach_du_lich.webp"
+        :avatar="KhachDuLich"
         time="09:00 - 09:45"
         title="Tech Trends 2025"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor."
@@ -26,7 +29,7 @@ import SpeakerCard from "../SpeakerCard.vue";
         position="CTO at TechFlow"
       />
       <SpeakerCard
-        avatar="src/assets/imgs/intro/Phong_canh_thien_nhien.webp"
+        :avatar="PhongCanhThienNhien"
         time="10:00 - 10:45"
         title="Innovation in AI"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam metus. Donec cursus magna eget sem convallis facilisis. Vestibulum dictum nibh at ullamcorper tincidunt. Phasellus scelerisque nisl non ullamcorper pellentesque. Nunc sagittis, felis in feugiat mollis, libero eros consectetur elit non cursus lacus nisl at dolor."

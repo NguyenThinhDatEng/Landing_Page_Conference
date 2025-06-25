@@ -26,19 +26,19 @@ const speakers = [
     avatar: CoDoHue,
     name: 'Nguyễn Văn A',
     position: 'CEO, TechCorp',
-    quote: 'Công nghệ là chìa khóa mở ra tương lai.',
+    quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit',
   },
   {
     avatar: KhachDuLich,
     name: 'Trần Thị B',
     position: 'CTO, InnovateX',
-    quote: 'Sáng tạo là động lực phát triển.',
+    quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit',
   },
   {
     avatar: PhongCanhThienNhien,
     name: 'Lê Văn C',
     position: 'Founder, GreenStart',
-    quote: 'Khởi nghiệp xanh vì một Việt Nam bền vững.',
+    quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed vel velit',
   },
 ]
 
